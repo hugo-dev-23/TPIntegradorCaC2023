@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+:root {
+    --funko-blue: #30343F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer  {
+    width: 100%;
+    background: var(--funko-blue);
+}
+
+#foot {
+    height: 343px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.foot_text-colour {
+    color: white;
+}
+
+.foot_list {
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    top: 15px;
+    left: 5%;
+}
+
+.foot_list li {
+    margin: 10px;
+}
+
+.foot_logo {
+    position: relative;
+    right: 5%;
+}
+
+.foot_copyright {
+    position: relative;
+    top: 140px;
+}
+
