@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Items</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <section class="header__container">
+            <figure class="container__logo">
+                <img class="container__logo-image" src="./assets/logos/logo_light_horizontal.svg" alt="logo principal">
+            </figure>
+            <nav class="container__nav">
+                <ul class="nav__list" id="menu">
+                    <button class="list__close" id="menu__close">
+                        <i class="bi bi-x-lg list__close-logo" alt="cerrar"></i>
+                    </button>
+                    <li class="list__item item__shop">
+                        <a class="list__item-decoration item__shop-text" href="#">SHOP <img class="item__arrow" src="./assets/logos/icon/Vector 1 (Stroke).svg" alt=""></a>
+                    </li>
+                    <li class="list__item item__contact">
+                        <a class="list__item-decoration item__contact-text" href="#">CONTACTO</a>
+                    </li>
+                    <li class="list__item item__login">
+                        <a class="list__item-decoration item__login-text" href="#">LOGIN</a>
+                    </li>
+                    <li class="list__item item__cart">
+                        <a class="list__item-decoration item__cart-text" href="#">CART<img class="item__cart-logo" src="./assets/logos/icon/cart-icon.svg" alt="carrito de compras"></a>
+                    </li>
+                </ul>
+                <button class="nav__hamburger" id="menu__open">
+                    <i class="bi bi-list hamburger__icon" alt="abrir menu"></i>
+                </button>
+            </nav>
+        </section>
+    </header>
+    <main class="main">
+        <section class="primary">
+            <article class="primary__item">
+                <img class="primary__item-image" src="./assets/images/baby-yoda-1.webp" alt="baby yoda funko">
+            </article>
+            <article class="primary__container">
+                <h5 class="container__patent">STAR WARS</h5>
+                <h2 class="container__product">BABY YODA BLUEBALL</h2>
+                <p class="container__description">Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edición limitada.</p>
+                <p class="container__price">$ 1799,99</p>
+                <p class="container__quantity">0</p>
+                <div class="quantity__button">
+                    <input class="quantity__button-more" type="button" value="+">
+                    <input class="quantity__button-less" type="button" value="-">
+                </div>
+                <p class="container__cart">Agregar al Carrito</p>
+                <p class="container__payments"><u>Ver métodos de pago</u> - 3 CUOTAS SIN INTÉRES</p>
+            </article>
+        </section>
+        <section class="secondary">
+            <h1 class="secondary__tittle">PRODUCTOS RELACIONADOS</h1>
+            <input class="secondary__button" type="button" value="<">
+            <div class="secondary__container">
+                <article class="container__card">
+                    <p class="card__new">NUEVO</p>
+                    <img class="card__image" src="./assets/images/trooper-1.webp" alt="stormtropper funko">
+                    <h5 class="card__patent">STAR WARS</h5>
+                    <h3 class="card__product">STORMTROPPER LIGHTSABER</h3>
+                    <p class="card__price">$ 1799,99</p>
+                    <p class="card__payments">3 CUOTAS SIN INTÉRES</p>
+                </article>
+                <article class="container__card">
+                    <p class="card__new">NUEVO</p>
+                    <img  class="card__image" src="./assets/images/pidgeotto-1.webp" alt="pidgeotto funko">
+                    <h5 class="card__patent">POKEMON</h5>
+                    <h3 class="card__product">PIDGEOTTO</h3>
+                    <p class="card__price">$ 1799,99</p>
+                    <p class="card__payments">3 CUOTAS SIN INTÉRES</p>
+                </article>
+                <article class="container__card">
+                    <p class="card__new">NUEVO</p>
+                    <img class="card__image" src="./assets/images/luna-1.webp" alt="luna lovegood lion mask funko">
+                    <h5 class="card__patent">HARRY POTTER</h5>
+                    <h3 class="card__product">LUNA LOVEGOOD LION MASK</h3>
+                    <p class="card__price">$ 1799,99</p>
+                    <p class="card__payments">3 CUOTAS SIN INTÉRES</p>
+                </article>
+            </div>
+            <input class="secondary__button" type="button" value=">">
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__foot">
+            <ul class="foot__list foot__text-colour">
+                <li>SHOP</li>
+                <li>INGRESAR</li>
+                <li>CONTACTO</li>
+            </ul>
+            <figure class="foot__logo">
+                <img class="foot__logo-image" src="./assets/logos/isotype.svg" alt="logotipo">
+            </figure>
+            <p class="foot__text-colour foot__copyright">All rights reserved 2023 - Funkoshop &copy;</p>
+        </section>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
